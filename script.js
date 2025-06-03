@@ -63,7 +63,7 @@ function setup() {
 
 function draw() {
   if (screen == 0) {
-    if (startButton.mouse.presses()) {
+    if (startButton.mouse.pressed()) {
       screen = 1;
       mazeGameScreen();
     }
